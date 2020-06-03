@@ -26,11 +26,13 @@ namespace Strings
 
             Console.WriteLine($"The word {search} was first located at index {index} and has a length of {length}");
 
-            string newAlice = alice.Replace(search, "");
+            string aliceReplaced = aliceLower.Replace(search, "");
+
+            string newAlice = aliceReplaced;
 
             Console.WriteLine(newAlice);
 
-           
+
 
 
 
