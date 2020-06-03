@@ -10,9 +10,9 @@ namespace Strings
 
             Console.WriteLine("Which word would you like to search?");
             string search = Console.ReadLine();
-            string newAlice = alice.ToLower(); 
+            string aliceLower = alice.ToLower(); 
 
-            if (newAlice.Contains(search))
+            if (aliceLower.Contains(search))
             {
                 Console.WriteLine($"The word {search} was located.");
             }
@@ -20,12 +20,17 @@ namespace Strings
             {
                 Console.WriteLine($"The word {search} was NOT located.");
             }
-            int index = newAlice.IndexOf(search);
+
+            int index = aliceLower.IndexOf(search);
             int length = search.Length;
 
-            Console.WriteLine($"The word {search} was located at index {index} and has a length of {length}");
+            Console.WriteLine($"The word {search} was first located at index {index} and has a length of {length}");
 
+            string newAlice = alice.Replace(search, "");
 
+            Console.WriteLine(newAlice);
+
+           
 
 
 
