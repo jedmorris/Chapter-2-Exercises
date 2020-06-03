@@ -1,7 +1,7 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter2_Exercises", "Chapter2_Exercises\Chapter2_Exercises.csproj", "{19A32F90-07A5-4409-A240-2DDAD2090D2C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Input_Output", "Chapter2_Exercises\Input_Output.csproj", "{19A32F90-07A5-4409-A240-2DDAD2090D2C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Numeric_Types", "Numeric_Types\Numeric_Types.csproj", "{D0DCD280-66EE-4A34-B735-9AD9D708A92E}"
 EndProject
