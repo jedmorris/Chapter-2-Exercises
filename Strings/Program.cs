@@ -23,10 +23,8 @@ namespace Strings
             int index = newAlice.IndexOf(search);
             int length = search.Length;
 
+            Console.WriteLine($"The word {search} was located at index {index} and has a length of {length}");
 
-
-
-            Console.WriteLine($"The word you search was located at index {index} and has a length {length} of");
 
 
 
